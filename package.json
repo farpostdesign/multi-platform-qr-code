@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
-  "author": "Dmitry Shvetsoc <@shvetsovdm>",
+  "author": "Dmitry Shvetsoc <shvetsov@farpost.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -18,5 +18,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
+  },
+  "engines": {
+    "node": "7.7.1"
   }
 }
