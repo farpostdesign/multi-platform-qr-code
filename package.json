@@ -1,0 +1,22 @@
+{
+  "name": "multi-platform-qr-code",
+  "version": "0.0.1",
+  "description": "Experiment for single QR code for IOS and Adroid platform",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "Dmitry Shvetsoc <@shvetsovdm>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.2",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  }
+}
