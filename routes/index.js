@@ -32,7 +32,7 @@ var PlarformDetector = {
 
 var PlarformRedirects = {
     'OS X': 'https://itunes.apple.com',
-    'Android': 'https://play',
+    'Android': 'https://play.google.com/store/apps',
     'Not supported': '/not-supported-platform',
 
     urlFor: function(platformStr) {
